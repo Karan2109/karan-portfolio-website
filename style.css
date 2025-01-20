@@ -322,3 +322,42 @@ button:hover {
         width: 80%;
     }
 }
+
+
+@media (max-width: 768px) {
+    /* For tablets and smaller devices */
+    .social-media {
+        /* flex-direction: column; */
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .icon {
+        width: 80px; /* Reduce icon size */
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    .icon:hover {
+        font-size: 30px; /* Adjust hover size for smaller screens */
+        transition: font-size 0.3s;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For mobile devices */
+    .social-media {
+        height: auto;
+        margin-top: 5px;
+    }
+
+    .icon {
+        width: 60px; /* Further reduce icon size for smaller screens */
+        font-size: 20px;
+    }
+
+    .icon:hover {
+        font-size: 25px; /* Adjust hover size for mobile */
+    }
+}
+
