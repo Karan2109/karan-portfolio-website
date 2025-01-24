@@ -14,7 +14,7 @@ submit.addEventListener('click', function() {
     if(email.value == '' && pass.value == '') {
         alert("Please fill in all fields");
     } else {
-        alert("Logged in successfully");
+        alert("Successfully submitted");
     }
 });
 
